@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(141, 190, 206);
+}
+
+header {
+    width: 100%;
+    background-color: LightBlue;
+    margin: 1px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+}
+
+nav {
+    background-color: lightblue;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    background-color: rgb(79, 255, 208);
+    color: black;
+    border: 1px solid rgb(33, 50, 51);
+    border-radius: 60px;
+}
+
+h1:hover {
+    color:  rgb(0, 72, 94);
+}
+h1:active {
+    color:  rgb(0, 189, 16);
+    width: 190px;
+    height: 50px;
+
+}
+
+p:hover {
+    color: rgb(39, 86, 153);
+}
+
+@media (max-width: 700px) {
+    header {
+        height: auto;
+        justify-content: center;
+    }
+
+    h1 {
+        display: none;
+    }
+    
+    nav {
+        Flex-direction: column;
+        align-items: center;
+    }
+}
